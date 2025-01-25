@@ -1,6 +1,13 @@
-import axios from 'axios';
-import { LS_KEY } from './refs';
+import axios from "axios";
 
-const token = localStorage.getItem(LS_KEY);
-axios.defaults.baseURL = 'https://connections-api.goit.global/';
-axios.defaults.headers.common.Authorization = `Bearer ${token}`;
+axios.defaults.baseURL = "https://jsonplaceholder.typicode.com/";
+
+export const getingPosts = async () => {
+  const { data } = await axios.get("posts");
+  return data;
+};
+
+export const gettingPostDetails = async (id) => {
+  const { data } = await axios.get(`posts/${id}`);
+  return data;
+};

@@ -4,9 +4,9 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url("./reset.css");
+@import url("./vite-promo.css");
+@import url("./header.css");
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -94,7 +94,7 @@ input {
   padding: 10px 15px;
   margin: 10px 20px;
   border-radius: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-image: linear-gradient(
@@ -117,4 +117,12 @@ input {
   color: white;
   font-size: 18px;
   font-weight: 600;
+}
+
+.main-btn {
+  margin-bottom: 20px;
+}
+
+.post-item {
+  margin-bottom: 20px;
 }
