@@ -119,10 +119,8 @@ input {
   font-weight: 600;
 }
 
-.main-btn {
-  margin-bottom: 20px;
-}
-
-.post-item {
+.post-item,
+.photos-item,
+button {
   margin-bottom: 20px;
 }
